@@ -11,10 +11,36 @@
 .nav-icon-span {
     margin-top: 5px;
     margin-left: 10px;
-    color: $altogrey-color;
+    color: $grey-color;
+    font-family: $primary-font;
+    font-weight: 700;
+}
+
+.nav-icon-span:hover {
+    color: $accent-color !important;
 }
 
 .nav-logo {
     height: 30px;
     width: auto;
+}
+
+.nav-link {
+    font-family: $primary-font;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar-links {
+    margin-left: 100px;
+}
+
+.home-subheader-heart,
+.home-subheader-code {
+    color: $accent-color;
+}
+
+.home-subheader-heart {
+    font-size: 24px;
+    margin-bottom: 4px;
 }
