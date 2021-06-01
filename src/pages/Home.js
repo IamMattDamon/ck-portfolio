@@ -5,7 +5,6 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { FaHeart } from "react-icons/fa";
 import { HiCode } from "react-icons/hi";
-import Footer from "./../layout/Footer";
 
 export default function Home() {
     return (
@@ -26,7 +25,6 @@ export default function Home() {
                 </Row>
             </Container>
         </main>
-        <Footer />
         </>
     );
 }
