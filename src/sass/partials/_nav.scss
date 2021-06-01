@@ -1,0 +1,27 @@
+.nav-background {
+    background-color: $primary-background;
+}
+
+.nav-link.active {
+    color: $accent-color !important;
+}
+
+.nav-link {
+    color: $altogrey-color;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+    border: none !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(152, 255, 152, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");         
+}
+
+a.nav-link:hover,
+.nav-icon-span:hover {
+    color: $accent-tint1;
+}
