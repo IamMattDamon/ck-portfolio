@@ -37,7 +37,8 @@ export default function Navigation() {
                             </li>
                             <li className="nav-item d-none d-lg-block mx-4">
                                 <a className="nav-icon" href="#.">
-                                    <img src={emailIcon} alt="email icon" />
+                                    <img src={emailIcon} alt="email icon" className="email-icon"/>
+                                    <span className="nav-icon-span">Email</span>
                                 </a>
                             </li>
                         </ul>

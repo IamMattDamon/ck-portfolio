@@ -4,3 +4,26 @@ body {
     margin: 0;
 }
 
+.inner {
+    height: 400px;
+    width: 400px;
+    background: $third-background;
+    border-radius: 200px;
+    position: relative;
+    top: 25px;
+}
+
+.avatar-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    position: absolute;
+    top: 95px;
+    left: 80px;
+}
+
+.intro-margin-lg {
+    margin-top: 125px;
+    align-items: center;
+}
+
