@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import logo from "./../icons/namelogo.png";
 import gitIcon from "./../icons/github.png";
-import emailIcon from "./../icons/email.png";
+import emailIcon from "./../icons/email-new.png";
 
 export default function Navigation() {
     return (
@@ -36,7 +36,7 @@ export default function Navigation() {
                                 </a>
                             </li>
                             <li className="nav-item d-none d-lg-block mx-4">
-                                <a className="nav-icon" href="#.">
+                                <a className="nav-icon text-decoration-none" href="#.">
                                     <img src={emailIcon} alt="email icon" className="email-icon"/>
                                     <span className="nav-icon-span">Email</span>
                                 </a>
