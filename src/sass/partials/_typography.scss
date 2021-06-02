@@ -8,10 +8,20 @@
 
 .primary-font {
     font-family: $primary-font;
+    color: $white-color;
 }
 
 .secondary-font {
     font-family: $secondary-font;
+    color: $white-color;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
 }
 
 .fw-600 {
@@ -26,4 +36,23 @@
     font-family: $primary-font;
     font-size: 36px;
     color: $white-color;
+}
+
+.number-fs {
+    font-size: 54px;
+}
+
+.text-fs {
+    font-size: 16px;
+    color: $grey-color;
+}
+
+.reg-link p {
+    text-decoration: underline;
+    color: $grey-color;
+}
+
+.reg-link p:hover {
+    color: $accent-color;
+    transition: 0.2s ease-in;
 }

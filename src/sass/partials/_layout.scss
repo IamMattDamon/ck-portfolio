@@ -27,3 +27,19 @@ body {
     align-items: center;
 }
 
+#home-intro {
+    background-color: $secondary-background;
+}
+
+.intro-paragraph-container {
+    width: 90%;
+    height: fit-content;
+}
+
+.intro-testimonials-container {
+    background-color: $primary-background;
+    padding: 20px 15px;
+    border-radius: 20px;
+    width: 100%;
+    height: fit-content;
+}
