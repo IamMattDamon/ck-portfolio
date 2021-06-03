@@ -2,6 +2,7 @@ body {
     background-color: $primary-background;
     min-height: 100vh;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .inner {
@@ -42,4 +43,74 @@ body {
     border-radius: 20px;
     width: 100%;
     height: fit-content;
+}
+
+@media screen and (max-width: 992px) {
+    .inner {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        top: 30px;
+        left: 20px;
+    }
+    .avatar-img {
+        height: 150px;
+        width: 150px;
+        border-radius: 75px;
+        top: 50px;
+        left: 40px;
+    }
+    .intro-margin-lg {
+        margin-top: 40px;
+    }
+    #home-intro {
+        padding-bottom: 50px;
+    }
+    .content-header-h1 {
+        font-size: 32px !important;
+    }
+    .content-heading-h2 {
+        font-size: 32px !important;
+    }
+    .content-subheader-h2 {
+        font-size: 24px !important;
+    }
+    .navbar-links {
+        margin-left: 0 !important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .avatar-col {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding-right: 50px;
+    }
+    .intro-margin-lg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main-index-wrapper {
+        margin-top: 1rem !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+    }
+    .content-heading-h2 {
+        text-align: center;
+    }
+    .media-align-center {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .column-order-fix {
+        flex-direction: column;
+    }
 }

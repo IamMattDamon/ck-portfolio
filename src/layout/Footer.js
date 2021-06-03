@@ -16,11 +16,11 @@ export default function Footer() {
                         <img src={footerLogo} alt="frode karlsen name logo" className="nav-logo" />
                     </Col>
                     <Col md={4} className="text-center order-sm-3 order-md-2 sm-flex-btm">
-                        <p class="secondary-font fs-6 mb-0">&#169;&nbsp;2020.&nbsp;All Rights Reserved</p>
+                        <p className="secondary-font fs-sm mb-0">&#169;&nbsp;Code Karlsen 2020.&nbsp;All Rights Reserved</p>
                     </Col>
                     <Col md={4} className="sm-flex order-sm-1 order-md-3 text-center">
                         <a href="https://www.linkedin.com/in/frode-karlsen-8a82a317/" target="_blank" rel="noreferrer">
-                            <img src={linkedIcon} alt="linkedin icon" className="footer-icon mx-3" />
+                            <img src={linkedIcon} alt="linkedin icon" className="footer-icon mx-4" />
                         </a>
                         <a href="https://github.com/IamMattDamon?tab=repositories" target="_blank" rel="noreferrer">
                             <img src={gitIcon} alt="github icon" className="footer-icon" />

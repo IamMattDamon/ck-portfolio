@@ -14,8 +14,8 @@ export default function Home() {
       <main id="index-main">
         <section className="home-heading">
           <Container className="mt-5 main-index-wrapper">
-            <Row className="px-lg-5 px-md-3">
-              <Col md={6} sm={12} className="intro-margin-lg">
+            <Row className="px-lg-5 px-md-3 column-order-fix">
+              <Col md={6} sm={12} xs={{ order: 2 }} className="intro-margin-lg order-md-1">
                 <h1 className="primary-font content-header-h1 altogrey fw-700">
                   New player joined!
                 </h1>
@@ -30,7 +30,7 @@ export default function Home() {
                   <Button className="accent-btn mt-2">Add Player</Button>
                 </Link>
               </Col>
-              <Col md={6} sm={12}>
+              <Col md={6} sm={12} xs={{ order: 1 }} className="avatar-col order-md-2">
                 <div className="inner">
                   <img
                     src={cartoonImage}
@@ -62,7 +62,7 @@ export default function Home() {
                     EXPERIENCE
                   </h3>
                 </div>
-                <h2 className="secondary-font number-header fw-400 number-fs ml-5">
+                <h2 className="secondary-font number-header fw-400 number-fs ml-3">
                   11
                 </h2>
                 <div className="d-flex flex-column mt-2 ml-2">
@@ -82,7 +82,7 @@ export default function Home() {
           <Container>
               <Row className="px-lg-5 px-md-3">
                 <Col lg={6} md={12} className="mt-5 mb-lg-5 px-4">
-                    <h2 className="primary-font fw-600 fs-2">Introduction</h2>
+                    <h2 className="primary-font fw-600 fs-2 content-heading-h2">Introduction</h2>
                     <div className="intro-paragraph-container">
                         <p className="secondary-font fw-400 mt-4">
                         My name is Frode Karlsen. I am a 37 year old man from Norway. Just finished 2 years of 
@@ -106,7 +106,7 @@ export default function Home() {
                     </div>
                 </Col>
                 <Col lg={6} md={12} className="mt-5 mb-lg-5 px-4">
-                    <h2 className="primary-font fw-600 fs-2">Testimonials</h2>
+                    <h2 className="primary-font fw-600 fs-2 content-heading-h2">Testimonials</h2>
                     <div className="intro-testimonials-container mt-4">
                         <blockquote className="secondary-font fw-400 mb-0">
                         &ldquo;Frode is a talented guy with a lot of drive. Since day 1 he showed great initiative,
