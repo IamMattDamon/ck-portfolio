@@ -95,11 +95,11 @@
 }
 
 @media only screen and (max-width: 400px) {
-    .content-header-h1 {
+    .content-header-h1,
+    .content-heading-h2 {
         font-size: 24px !important;
     }
-    .content-subheader-h2,
-    .content-heading-h2 {
+    .content-subheader-h2 {
         font-size: 20px !important;
     } 
     .home-subheader-heart {

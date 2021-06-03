@@ -45,6 +45,39 @@ body {
     height: fit-content;
 }
 
+.width-90 {
+    width: 90%;
+}
+
+.projects-hr {
+    margin: 2rem 0;
+    color: $grey-color;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+hr {
+    background-color: currentColor;
+    border-top: 0;
+}
+
+.projects-container {
+    width: 80%;
+}
+
+#projects-main {
+    background-color: $secondary-background;
+}
+
+.project-image {
+    border: 1px solid $grey-color;
+    border-radius: 10px;
+    width: 85%;
+    height: auto;
+}
+
 @media screen and (max-width: 992px) {
     .inner {
         height: 200px;

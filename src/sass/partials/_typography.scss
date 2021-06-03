@@ -3,7 +3,11 @@
 }
 
 .grey {
-    color: $grey-color;
+    color: $grey-color !important;
+}
+
+.white {
+    color: $white-color !important;
 }
 
 .primary-font {
@@ -59,4 +63,8 @@
 
 .fs-sm {
     font-size: 14px;
+}
+
+.projects-header span {
+    font-size: 54px;
 }
