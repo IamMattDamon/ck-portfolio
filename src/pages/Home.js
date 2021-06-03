@@ -47,7 +47,7 @@ export default function Home() {
 
         <section className="home-skills mb-5">
           <SkillsIcons />
-          <div class="w-100 mt-2"></div>
+          <div className="w-100 mt-2"></div>
           <Container>
             <Row className="px-lg-5 px-md-3">
               <Col md={6} sm={12} className="d-flex flex-row mt-5">
@@ -86,8 +86,8 @@ export default function Home() {
                     <div className="intro-paragraph-container">
                         <p className="secondary-font fw-400 mt-4">
                         My name is Frode Karlsen. I am a 37 year old man from Norway. Just finished 2 years of 
-                        studying front-end development at Noroff. Been at it for 2 years now, and I am still learning 
-                        the ropes of the trade. I am currently looking for a development job in Kristansand.
+                        studying front-end development at Noroff. I am still learning the ropes of the trade. 
+                        Currently looking for a development job in Kristansand.
                         </p>
                         <p className="secondary-font fw-400 mt-4">
                         My friends would describe me as a friendly and funny guy, always up for a good laugh. 
@@ -95,8 +95,8 @@ export default function Home() {
                         patient, honest and trustworthy. My eye for detail can sometimes make me lose track 
                         of the bigger picture, but in a team setting both are important. Coming from a past 
                         with loads of customer service experience, I always aim to deliver more than what is 
-                        expected of me. My long term goal is to start my own company and to become an independent 
-                        developer. 
+                        expected of me. My long term goal is to start my own company to become an independent 
+                        full stack developer. 
                         </p>
                         <Link to={`/contact`} className="reg-link">
                         <p className="secondary-font fw-400 mt-4">
@@ -114,19 +114,19 @@ export default function Home() {
                         rely on delivering when needed&rdquo;
                         </blockquote>
                     </div>
-                    <div class="d-flex justify-content-end">
-                        <p class="secondary-font fw-700 mt-2">Lars Nielsen, CSM at Betsson Group LTD</p>
+                    <div className="d-flex justify-content-end">
+                        <p className="secondary-font fw-700 mt-2">Lars Nielsen, CSM at Betsson Group LTD</p>
                     </div>
                     <div className="intro-testimonials-container mt-4">
                     <blockquote className="secondary-font fw-400 mb-0">
                     &ldquo;He can always be counted on to deliver more than what is expected, and he uses
                     his knowlege to try to get the most out of every situation. He is not afraid to speak
-                    his mind if he thinks something can be done in a better way, something I apprecuate and
+                    his mind if he thinks something can be done in a better way, something I appreciate and
                     respects very much&rdquo;
                     </blockquote>
                     </div>
-                    <div class="d-flex justify-content-end">
-                        <p class="secondary-font fw-700 mt-2">Petteri Spara, CSM at Betsson Group LTD</p>
+                    <div className="d-flex justify-content-end">
+                        <p className="secondary-font fw-700 mt-2">Petteri Spara, CSM at Betsson Group LTD</p>
                     </div>
                 </Col>
               </Row>

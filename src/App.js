@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navigation from "./layout/Navigation";
+import Footer from "./layout/Footer";
 import Home from "./pages/Home";
 import "./sass/style.scss";
 
@@ -18,6 +19,7 @@ function App() {
       </Route>
     </Switch>
   </Router>
+  <Footer />
   </>
   );
 }

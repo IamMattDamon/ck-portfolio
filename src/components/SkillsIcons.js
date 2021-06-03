@@ -21,7 +21,7 @@ export default function SkillsIcons() {
       <Container className="mt-5 main-index-wrapper">
         <Row className="px-lg-5 px-md">
           <Col md={6} sm={12}>
-            <h2 class="content-heading-h2 fw-600 mt-5 mb-3">Skills</h2>
+            <h2 class="content-heading-h2 fw-600 mt-5 mb-4">Skills</h2>
           </Col>
         </Row>
         <Row className="px-lg-5 px-md">

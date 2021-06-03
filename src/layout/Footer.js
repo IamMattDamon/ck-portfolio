@@ -9,7 +9,7 @@ import gitIcon from "./../icons/github.png";
 export default function Footer() {
     return (
         <>
-        <Footer className="footer mt-auto py-2">
+        <footer className="footer mt-auto py-2 bg-dark">
             <Container className="py-3">
                 <Row className="align-items-center">
                     <Col md={4} className="order-sm-2 order-md-1 sm-flex">
@@ -18,9 +18,9 @@ export default function Footer() {
                     <Col md={4} className="text-center order-sm-3 order-md-2 sm-flex-btm">
                         <p class="secondary-font fs-6 mb-0">&#169;&nbsp;2020.&nbsp;All Rights Reserved</p>
                     </Col>
-                    <Col md={4} className="sm-flex order-sm-1 order-md-3">
+                    <Col md={4} className="sm-flex order-sm-1 order-md-3 text-center">
                         <a href="https://www.linkedin.com/in/frode-karlsen-8a82a317/" target="_blank" rel="noreferrer">
-                            <img src={linkedIcon} alt="linkedin icon" className="footer-icon me-3" />
+                            <img src={linkedIcon} alt="linkedin icon" className="footer-icon mx-3" />
                         </a>
                         <a href="https://github.com/IamMattDamon?tab=repositories" target="_blank" rel="noreferrer">
                             <img src={gitIcon} alt="github icon" className="footer-icon" />
@@ -28,7 +28,7 @@ export default function Footer() {
                     </Col>
                 </Row>
             </Container>
-        </Footer>
+        </footer>
         </>
     );
 }
