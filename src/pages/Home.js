@@ -50,7 +50,7 @@ export default function Home() {
           <div className="w-100 mt-2"></div>
           <Container>
             <Row className="px-lg-5 px-md-3">
-              <Col md={6} sm={12} className="d-flex flex-row mt-5">
+              <Col md={6} sm={12} className="d-flex flex-row mt-5 media-align-fix">
                 <h2 className="secondary-font number-header fw-400 number-fs">
                   2
                 </h2>
@@ -115,7 +115,7 @@ export default function Home() {
                         </blockquote>
                     </div>
                     <div className="d-flex justify-content-end">
-                        <p className="secondary-font fw-700 mt-2">Lars Nielsen, CSM at Betsson Group LTD</p>
+                        <p className="secondary-font fw-700 mt-2 name-paragraph">Lars Nielsen, CSM at Betsson Group LTD</p>
                     </div>
                     <div className="intro-testimonials-container mt-4">
                     <blockquote className="secondary-font fw-400 mb-0">
@@ -126,7 +126,7 @@ export default function Home() {
                     </blockquote>
                     </div>
                     <div className="d-flex justify-content-end">
-                        <p className="secondary-font fw-700 mt-2">Petteri Spara, CSM at Betsson Group LTD</p>
+                        <p className="secondary-font fw-700 mt-2 name-paragraph">Petteri Spara, CSM at Betsson Group LTD</p>
                     </div>
                 </Col>
               </Row>

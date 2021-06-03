@@ -101,16 +101,19 @@ body {
         justify-content: center;
         align-content: space-between;
     }
-    .content-heading-h2 {
-        text-align: center;
-    }
-    .media-align-center {
-        justify-content: center;
-    }
+
 }
 
 @media screen and (max-width: 767px) {
     .column-order-fix {
         flex-direction: column;
+    }
+    .skills-icon {
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .home-skills {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }

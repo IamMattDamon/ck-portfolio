@@ -11,14 +11,14 @@ export default function Footer() {
         <>
         <footer className="footer mt-auto py-2 bg-dark">
             <Container className="py-3">
-                <Row className="align-items-center">
-                    <Col md={4} className="order-sm-2 order-md-1 sm-flex">
+                <Row className="align-items-center order-sort-fix">
+                    <Col md={4} xs={{ order: 2 }} className="order-md-1 sm-flex">
                         <img src={footerLogo} alt="frode karlsen name logo" className="nav-logo" />
                     </Col>
-                    <Col md={4} className="text-center order-sm-3 order-md-2 sm-flex-btm">
+                    <Col md={4} xs={{ order: 3 }} className="text-center order-md-2 sm-flex-btm">
                         <p className="secondary-font fs-sm mb-0">&#169;&nbsp;Code Karlsen 2020.&nbsp;All Rights Reserved</p>
                     </Col>
-                    <Col md={4} className="sm-flex order-sm-1 order-md-3 text-center">
+                    <Col md={4} xs={{ order: 1 }} className="sm-flex order-md-3 text-center">
                         <a href="https://www.linkedin.com/in/frode-karlsen-8a82a317/" target="_blank" rel="noreferrer">
                             <img src={linkedIcon} alt="linkedin icon" className="footer-icon mx-4" />
                         </a>

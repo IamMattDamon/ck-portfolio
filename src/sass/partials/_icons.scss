@@ -60,6 +60,64 @@
 
 @media only screen and (max-width: 776px) {
     .col-fix-margin {
-        margin-top: 7px;
+        margin-top: 7px !important;
+    }
+    .order-sort-fix {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-icon {
+        margin-right: 20px !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    h2.content-heading-h2 {
+        text-align: center;
+    }
+    .media-align-center {
+        margin-left: 30%;
+    }
+    .media-align-fix {
+        justify-content: center;
+    }
+    .number-fs {
+        font-size: 46px !important;
+        line-height: 1.3 !important;
+    }
+    .text-fs {
+        font-size: 14px !important;
+    }
+    .intro-paragraph-container {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .content-header-h1 {
+        font-size: 24px !important;
+    }
+    .content-subheader-h2,
+    .content-heading-h2 {
+        font-size: 20px !important;
+    } 
+    .home-subheader-heart {
+        font-size: 20px !important;
+    }
+    .skills-span-text {
+        font-size: 14px !important;
+    }
+    .media-align-center {
+        margin-left: 20%;
+    }
+    .intro-paragraph-container p {
+        font-size: 14px !important;
+    }
+    .intro-testimonials-container blockquote {
+        font-size: 14px !important;
+    }
+    .name-paragraph {
+        font-size: 12px !important;
     }
 }
