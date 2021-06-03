@@ -47,15 +47,21 @@
     margin-bottom: 4px;
 }
 
-.skills-icon {
-    height: 60px;
-    width: 60px;
-}
-
 .skills-span-text {
     font-size: 16px;
     font-weight: 600;
     color: $altogrey-color;
+}
+
+.skills-icons {
+    color: $accent-color;
+    font-size: 40px;
+}
+
+.skills-icons-ux,
+.skills-icons-typescript {
+    color: $accent-color;
+    font-size: 32px;
 }
 
 @media only screen and (max-width: 776px) {

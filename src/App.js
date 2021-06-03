@@ -3,6 +3,7 @@ import Navigation from "./layout/Navigation";
 import Footer from "./layout/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 import "./sass/style.scss";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Projects />
       </Route>
       <Route path="/contact">
-        
+        <Contact />
       </Route>
     </Switch>
   </Router>

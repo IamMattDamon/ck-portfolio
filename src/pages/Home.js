@@ -27,7 +27,7 @@ export default function Home() {
                   <HiCode className="home-subheader-code" />
                 </h3>
                 <Link to={`/contact`}>
-                  <Button className="accent-btn mt-2">Add Player</Button>
+                  <Button className="accent-btn mt-3">Add Player</Button>
                 </Link>
               </Col>
               <Col md={6} sm={12} xs={{ order: 1 }} className="avatar-col order-md-2">

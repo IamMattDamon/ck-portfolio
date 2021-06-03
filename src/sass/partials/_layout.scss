@@ -74,8 +74,14 @@ hr {
 .project-image {
     border: 1px solid $grey-color;
     border-radius: 10px;
-    width: 85%;
+    width: 90%;
     height: auto;
+}
+
+.all-but-footer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 992px) {
@@ -108,10 +114,17 @@ hr {
     .content-subheader-h2 {
         font-size: 24px !important;
     }
+    .project-heading-h2 {
+        font-size: 32px !important;
+    }
     .navbar-links {
         margin-left: 0 !important;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    .project-image {
+        width: 100%;
+        margin-bottom: 50px !important;
     }
 }
 
@@ -134,10 +147,6 @@ hr {
         justify-content: center;
         align-content: space-between;
     }
-
-}
-
-@media screen and (max-width: 767px) {
     .column-order-fix {
         flex-direction: column;
     }
@@ -148,5 +157,27 @@ hr {
     .home-skills {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .width-90 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .sm-row-col  {
+        flex-direction: column;
+    }
+    .project-image {
+        margin-top: 10px;
+    }
+    .projects-header span {
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .project-heading-h2 {
+        font-size: 24px !important;
     }
 }
